@@ -1,0 +1,59 @@
+body, * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color:#ccc;
+    background-color: #222;
+}
+
+h1 {
+    font-family: "Savate", sans-serif;
+    text-align: center;
+    margin:2rem 0 1rem;
+    font-size: 3rem;
+    color: #8c0;
+}
+
+input, button {
+    font-family: "Roboto", sans-serif;
+}
+
+div, pre {
+    margin:1rem;
+}
+
+div:has(input, button) {
+    display: inline-block;
+}
+
+pre {
+    font-family: "Courier Prime", monospace;
+    font-size: .9rem;
+}
+
+pre span {
+    display: block;
+}
+
+pre span.Legendary {
+    color: #c90;
+}
+
+pre span.Mythical {
+    color: #90c;
+}
+
+pre span.Epic {
+    color: #c30;
+}
+
+pre span.Rare {
+    color: #cc0;
+}
+
+pre span.Uncommon {
+    color: #09c;
+}
